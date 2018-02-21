@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "questions",
+  "version": "1.0.0",
+  "description": "Interview questions",
+  "main": "index.js",
+  "repository": "https://github.com/okaybuild/questions",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:series": "ava series/test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
