@@ -15,9 +15,9 @@ results.
 function readFile(fileName, callback) {
   fs.readFile(fileName, (error, result) => {
     if (error) {
-      cb(error);
+      callback(error);
     } else {
-      cb(null, result.toString());
+      callback(null, result.toString());
     }
   });
 }
